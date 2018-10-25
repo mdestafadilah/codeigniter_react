@@ -10,8 +10,8 @@ class Site extends CI_Controller
 
 	public function index()
 	{
-		// $this->load->view('welcome_message');
-		$this->template->load('welcome');
+		$data['elapsed_time'] = $this->benchmark->elapsed_time();
+		$this->template->load('welcome',$data);
 	}
 }
 
