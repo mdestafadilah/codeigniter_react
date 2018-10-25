@@ -14,7 +14,7 @@ class Template
         $this->ci->config->set_item('twig.locations',
         	array_merge($this->ci->config->item('twig.locations'),[
         		sys_get_temp_dir() => sys_get_temp_dir(),
-        		FCPATH.'assets/templates/' => FCPATH.'assets/templates/'
+        		FCPATH.'assets/themes/' => FCPATH.'assets/themes/'
         	])
     	);
     	// Load Twig Library
