@@ -1,4 +1,4 @@
-# CiMS_Resource v.0.0.1
+# CiMS v.0.0.1
 
 ## Introduction
 
