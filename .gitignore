@@ -1,25 +1,15 @@
-.DS_Store
-
+# codeigniter cache
 application/cache/*
 !application/cache/index.html
 
+# codeigniter logs
 application/logs/*
 !application/logs/index.html
 
+# codeigniter .htaccess
 !application/*/.htaccess
 
-composer.lock
-/vendor/
-
-assets/themes/site/default/package-lock.json
-node_modules/
-
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
+# sublime text cache files
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
