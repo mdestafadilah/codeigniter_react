@@ -19,3 +19,10 @@ application/logs/*
 # untrack dynamic data will generate by hook
 site_data**/
 app.config
+
+# untrack compiled assets
+**/package-lock.json
+**/composer-lock.json
+**/dist/development/*
+**/dist/production/*
+**/node_modules/**
