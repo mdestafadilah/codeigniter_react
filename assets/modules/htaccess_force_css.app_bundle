@@ -1,0 +1,9 @@
+ForceType text/css
+Header set Content-Encoding: gzip
+
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} !".*Safari.*"
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule (.*).css$ $1.css.gz [L]
+ForceType text/css
