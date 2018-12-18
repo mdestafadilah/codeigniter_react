@@ -9,5 +9,6 @@ Template engine using [Twig](https://twig.symfony.com/) and [Twig Library For Co
 ## Start Theme Development
 
 - npm install webpack webpack-cli -g
-- install assets modules : cd assets/themes/site/default/ && npm install
-- run theme development :  cd assets/themes/site/default/ && webpack --watch
+- open app in browser **(this app will generate app.config & site_data_{time_stamp folder)** for app data
+- install assets modules : cd assets/themes/site/reactjs/ && npm install
+- run theme development :  cd assets/themes/site/reactjs/ && webpack --watch
